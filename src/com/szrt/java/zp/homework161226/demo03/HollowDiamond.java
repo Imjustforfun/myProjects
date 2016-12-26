@@ -1,14 +1,20 @@
-package com.szrt.java.zp.homework161223.demo09;
+package com.szrt.java.zp.homework161226.demo03;
 
-import org.junit.Test;
 
 public class HollowDiamond {
 
+	public static void main(String[] args) {
+		
+		hollowDiamondSpace();
+		
+		hollowDiamodNumber();
+		
+	}
+	
 	/**
-	 * 空格定位
+	 * 空格定位 打印空心菱形
 	 */
-	@Test
-	public void hollowDiamondSpace(){
+	public static void hollowDiamondSpace(){
 		
 		for(int s=1;s<=3;s++){
 			System.out.print(" ");
@@ -49,10 +55,9 @@ public class HollowDiamond {
 	}
 	
 	/**
-	 * 位置定位
+	 * 位置定位 打印空心菱形
 	 */
-	@Test
-	public void hollowDiamodNumber(){
+	public static void hollowDiamodNumber(){
 		//top
 		for(int i=1;i<=7;i++){
 			if(i!=4){
