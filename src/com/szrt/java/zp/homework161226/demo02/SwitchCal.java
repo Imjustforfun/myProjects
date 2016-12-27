@@ -36,12 +36,12 @@ public class SwitchCal {
 	 */
 	public static void switchCal(String symbol,int one,int two){
 		
-		switch (symbol) {
-		case "+": System.out.println(one+two); break;
-		case "-": System.out.println(one-two); break;
-		case "*": System.out.println(one*two); break;
-		case "/": System.out.println(one/two); break;
-		case "%": System.out.println(one%two); break;
+		switch(symbol){
+			case "+": System.out.println(one+two); break;
+			case "-": System.out.println(one-two); break;
+			case "*": System.out.println(one*two); break;
+			case "/": System.out.println(one/two); break;
+			case "%": System.out.println(one%two); break;
 		}
 		
 	}
